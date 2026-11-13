@@ -1,9 +1,9 @@
 cask "termark" do
   arch arm: "-arm64", intel: ""
 
-  version "1.8.3"
-  sha256 arm:   "4f81db513541aa5e811f97905d17d4c87d7c025bc016ee4b3705accace75a5bb",
-         intel: "9dd2ae2f7f0b4c35d2f1611f28ae33f7410d95d85cc45bf1a351a70dc100d6c3"
+  version "1.8.4"
+  sha256 arm:   "700a9b6125aa098723b625df563d83bdeb30cf96d8ae44fa11c29e79fe5bd670",
+         intel: "1da73a9624bdce8e3165178aabe9b6b9fbf907054dd9df8235dee8f0c5a432e1"
 
   url "https://f.next-terminal.com/termark/Termark-#{version}#{arch}.dmg",
       verified: "f.next-terminal.com/termark/"
